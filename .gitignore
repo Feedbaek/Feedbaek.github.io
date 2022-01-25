@@ -1,17 +1,2 @@
-# Jekyll 이 생성한 메타 데이터 무시
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Bundler 가 생성한 폴더 무시
-.bundle/
-vendor/
-
-.DS_Store
-.jekyll
-.sass-cache
-Gemfile
-Gemfile.lock
 node_modules
-package.json
+

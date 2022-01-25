@@ -1,0 +1,28 @@
+{
+  "name": "feedbaek.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "nodemon ./app.js",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feedbaek/Feedbaek.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Feedbaek/Feedbaek.github.io/issues"
+  },
+  "homepage": "https://github.com/Feedbaek/Feedbaek.github.io.git",
+  "dependencies": {
+    "express": "^4.17.2",
+    "gh-pages": "^3.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
